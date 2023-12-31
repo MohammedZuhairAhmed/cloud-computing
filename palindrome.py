@@ -3,6 +3,6 @@ def is_palindrome(word):
 
 user_input = input("Enter a word to check if it's a palindrome: ")
 if is_palindrome(user_input):
-    print(f"{user_input} is a palindrome!")
+    print("{} is a palindrome!".format(user_input))
 else:
-    print(f"{user_input} is not a palindrome.")
+    print("{} is not a palindrome.".format(user_input))
