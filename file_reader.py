@@ -1,4 +1,4 @@
-file_name = input("Enter the name of the file: ")
+file_name = raw_input("Enter the name of the file: ")
 
 # Prefix the file name with /home/ec2-user
 file_path = "/home/ec2-user/" + file_name
